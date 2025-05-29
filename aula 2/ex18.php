@@ -4,7 +4,7 @@ $peso = readline("Digite o peso em kg: ");
 
 $altura = readline("Digite a sua altura em metros: "); 
 
-$imc = $peso / ($altura * $altura);
+$imc = number_format($peso / ($altura * $altura),2);
 
 echo "Seu IMC é: $imc "; 
 

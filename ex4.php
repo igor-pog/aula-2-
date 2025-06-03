@@ -1,5 +1,4 @@
 <?php
-// Solicita os dois limites do intervalo
 $limite1 = readline ("Digite o primeiro número (limite inf): ");
 $limite2 = readline ("Digite o primeiro número (limite sp): ");
 
